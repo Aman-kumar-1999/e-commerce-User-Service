@@ -1,0 +1,11 @@
+spring:
+  config:
+    import: optional:configserver:http://13.233.173.112:5001 # personal eqipped prod
+#    import: optional:configserver:http://44.210.146.251:5001 # for eqipped prod
+#    import: optional:configserver:http://3.7.18.180:5001 # pord
+#    import: optional:configserver:http://localhost:5001  # test
+
+
+
+  profiles:
+    active: user
